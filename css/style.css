@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    /* background-color: #d4cab1; */
+}
+
+p {
+    font-size: 20px;
+    text-indent: 40px;
+    padding: 0 300px 0 300px;
+    margin: 5px auto;
+}
+
+
+.title {
+    position: relative;
+    height: 225px; 
+    background-image: url('../img/header.png') /* center center/cover no-repeat; */
+    /* background-color: transparent; */
+
+} 
+
+
+img {
+    display: block;
+    position: absolute;
+    width: 300px;
+    right: 300px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+.logo img {
+    display: block;
+    position: absolute;
+    width: 400px;
+    top: 100px;
+    left: 290px;
+    box-shadow: none;
+}
+
+
+.title h1 {
+    color: black;
+    font-size: 30px;
+    padding: 30px;
+    margin-left: 276px;
+    
+}
+
+.title h2 {
+
+    color: firebrick;
+    text-align: left;
+    font-style: italic;
+    padding: 30px;
+    font-size: 40px;
+ 
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.text {
+    background-color: #d4cab1;
+}
+
+.data {
+    color: firebrick;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: right;
+    padding: 20px 400px 10px 0;
+    margin: 50px 0 10px 0;
+
+}
+
+
+.first .data {
+    margin: 100px 0 10px 0;
+}
+
+.footer {
+    position: relative;
+    height: 70px; 
+    background-image: url('../img/header.png')
+    
+}
+    
+.footer span {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .title h1 {
+        font-size: 24px;
+        margin-left: 77px;
+    }
+    .title h2 {
+        font-size: 26px;
+        padding: 10px 0 10px 30px;
+        margin-top: 70px;
+    }
+    .data {
+        font-size: 24px;
+        padding: 20px 150px 10px 0;
+    }
+    p {
+        font-size: 20px;
+        padding: 0 100px 0 100px;
+        margin: 0 auto;
+    }
+
+    img {
+        display: block;
+        position: absolute;
+        width: 300px;
+        right: 120px;
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    }
+
+    .logo img {
+        display: block;
+        position: absolute;
+        width: 330px;
+        top: 110px;
+        left: 95px;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .title h1 {
+        font-size: 24px;
+        margin-left: 50px;
+    }
+    .title h2 {
+        font-size: 26px;
+        padding: 10px 0 10px 30px;
+        margin-top: 70px;
+    }
+    .data {
+        font-size: 22px;
+        padding: 20px 120px 10px 0;
+    }
+    p {
+        font-size: 18px;
+        padding: 0 50px 0 50px;
+        margin: 0 auto;
+        text-indent: 35px;
+    }
+    img {
+        display: block;
+        position: absolute;
+        width: 240px;
+        right: 70px;
+        bottom: 25px;
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    }
+
+    .logo img {
+        display: block;
+        position: absolute;
+        width: 330px;
+        top: 110px;
+        left: 70px;
+        box-shadow: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .title h1 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .title h2 {
+        font-size: 22px;
+        padding: 10px 0 10px 30px;
+        margin-top: 70px;
+    }
+    .data {
+        font-size: 22px;
+        padding: 20px 120px 10px 0;
+    }
+    p {
+        font-size: 16px;
+        padding: 0 50px 0 50px;
+        margin: 0 auto;
+        text-indent: 30px;
+    }
+    img {
+        display: block;
+        position: absolute;
+        width: 200px;
+        right: 20px;
+        bottom: 40px;
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    }
+    .logo img {
+        display: block;
+        position: absolute;
+        width: 290px;
+        top: 120px;
+        left: 25px;
+        box-shadow: none;
+    }
+    .first .data {
+        margin: 50px 0 10px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .title h1 {
+        display: block;
+        position: absolute;
+        font-size: 16px;
+        margin-top: 106px;
+        margin-left: 2px;
+    }
+    .title h2 {
+        display: block;
+        position: absolute;
+        font-size: 18px;
+        padding: 10px 0 10px 30px;
+        margin-top: 90px;
+     
+    }
+    .data {
+        font-size: 18px;
+        padding: 20px 40px 10px 0;
+    }
+    p {
+        font-size: 16px;
+        padding: 0 20px 0 20px;
+        margin: 0 auto;
+        text-indent: 20px;
+    }
+    img {
+        display: block;
+        position: absolute;
+        width: 130px;
+        right: 20px;
+        top: 20px;
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    }
+    .logo img {
+        display: block;
+        position: absolute;
+        width: 180px;
+        top: 160px;
+        left: 25px;
+        box-shadow: none;
+    }
+    .first .data {
+        margin: 40px 0 10px 0;
+    }
+}
