@@ -132,6 +132,44 @@ hr {
     }
 }
 
+@media (max-width: 1440px) {
+    .title h1 {
+        font-size: 24px;
+        margin-left: 175px;
+    }
+    .title h2 {
+        font-size: 26px;
+        padding: 10px 0 10px 30px;
+        margin-top: 70px;
+    }
+    .data {
+        font-size: 24px;
+        padding: 20px 260px 10px 0;
+    }
+    p {
+        font-size: 20px;
+        padding: 0 200px 0 200px;
+        margin: 0 auto;
+    }
+
+    img {
+        display: block;
+        position: absolute;
+        width: 300px;
+        right: 200px;
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    }
+
+    .logo img {
+        display: block;
+        position: absolute;
+        width: 330px;
+        top: 110px;
+        left: 193px;
+        box-shadow: none;
+    }
+}
+
 @media (max-width: 991px) {
     .title h1 {
         font-size: 24px;
